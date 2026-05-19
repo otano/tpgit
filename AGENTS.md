@@ -1,19 +1,19 @@
 # AGENTS.md — epsi-tpgit
 
-## What this is
+## What this is lol
 
 A starter repo for a Git collaboration workshop (EPSI school, TP Git). No commits have been made yet — the repo is a blank canvas for teaching branching, merging, and team workflows.
 
 ## Project structure
 
-| Path | Purpose |
-|---|---|
-| `main.py` | Entrypoint (hello world placeholder — modify during exercise) |
-| `data/etudiants.csv` | Student roster (DUPUIS, DUPONT, PICHET) |
-| `data/professeur.csv` | Professor roster (MENARD) |
-| `data/salles.csv` | Room list (101, 201) |
-| `Collaboration dans un projet.pdf` | Workshop instructions (French) |
-| `pyproject.toml` | Minimal — no dependencies, Python >=3.13 |
+| Path                               | Purpose                                                       |
+| ---------------------------------- | ------------------------------------------------------------- |
+| `main.py`                          | Entrypoint (hello world placeholder — modify during exercise) |
+| `data/etudiants.csv`               | Student roster (DUPUIS, DUPONT, PICHET)                       |
+| `data/professeur.csv`              | Professor roster (MENARD)                                     |
+| `data/salles.csv`                  | Room list (101, 201)                                          |
+| `Collaboration dans un projet.pdf` | Workshop instructions (French)                                |
+| `pyproject.toml`                   | Minimal — no dependencies, Python >=3.13                      |
 
 ## Key facts
 
