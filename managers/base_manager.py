@@ -62,8 +62,9 @@ class BaseManager(Generic[T]):
 
     @classmethod
     def _save(cls, rows: list[dict]) -> None:
+        fieldnames = cls._fieldnames() or (list(rows[0].keys()) if rows else [])
         with open(cls._file, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=cls._fieldnames())
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)
 

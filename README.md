@@ -50,3 +50,7 @@ fin
   ```
 
 - Une commande qui creer le fichier emploi du temps dans output
+
+
+en tant qu'utilisateur je veux pouvoir 
+ajouter supprimer lire modifier les salles, les étudiants, les professeurs
