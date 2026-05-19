@@ -8,7 +8,7 @@ A starter repo for a Git collaboration workshop (EPSI school, TP Git). No commit
 
 | Path                               | Purpose                                                       |
 | ---------------------------------- | ------------------------------------------------------------- |
-| `main.py`                          | Entrypoint (hello world placeholder — modify during exercise) |
+| `main.py`                          | CLI entrypoint (CRUD sur les CSV data/)                       |
 | `data/etudiants.csv`               | Student roster (DUPUIS, DUPONT, PICHET)                       |
 | `data/professeur.csv`              | Professor roster (MENARD)                                     |
 | `data/salles.csv`                  | Room list (101, 201)                                          |
@@ -28,6 +28,17 @@ A starter repo for a Git collaboration workshop (EPSI school, TP Git). No commit
 ```sh
 python main.py
 ```
+
+## CLI — CRUD sur les CSV
+
+```sh
+python main.py list <table>                  # consulter
+python main.py add   <table> [field=val ...]  # ajouter (omettre = interactif)
+python main.py delete <table> <field>=<val>   # supprimer
+python main.py update <table> <field>=<val> <field2>=<new> ...   # modifier
+```
+
+Tables : `etudiants`, `professeur`, `salles`. Pas de dépendances — stdlib uniquement.
 
 ## Git workflow notes
 
