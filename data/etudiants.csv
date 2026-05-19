@@ -1,4 +1,4 @@
-nom,prenom
-DUPUIS,Marie
-DUPONT,Jean
-PICHET,Paul
+id,nom,prenom
+1,DUPUIS,Marie
+2,DUPONT,Jean
+3,PICHET,Paul
